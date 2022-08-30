@@ -32,6 +32,11 @@ public class POO {
         meuBarco.setTamanho("Médio");
         meuBarco.setMaterial("Madeira");
         meuBarco.setComprimento(1.4);
+        
+        
+        meuCarro.imprimeDadosDoCarro();
+        pes.imprimeDadosDaPessoa();
+        meuBarco.imprimeDadosDoBarco();
     }
     
 }

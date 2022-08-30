@@ -10,7 +10,16 @@ public class Barco {
     String cor;
     String tamanho;
     String material;
-    int comprimento;
+    double comprimento;
+    
+    void imprimeDadosDoBarco(){
+    
+        System.out.println("----Barco----");       
+        System.out.println("Cor: "+cor);
+        System.out.println("Tamanho: "+tamanho);
+        System.out.println("Material: "+material);
+        System.out.println("Comprimento: "+comprimento);
+    }
 
     public String getCor() {
         return cor;
@@ -36,11 +45,11 @@ public class Barco {
         this.material = material;
     }
 
-    public int getComprimento() {
+    public double getComprimento() {
         return comprimento;
     }
 
-    public void setComprimento(int comprimento) {
+    public void setComprimento(double comprimento) {
         this.comprimento = comprimento;
     }
 }

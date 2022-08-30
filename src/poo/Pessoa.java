@@ -9,6 +9,15 @@ public class Pessoa {
     String corDoCabelo;
     String biotipo;
     int idade;
+    
+    void imprimeDadosDaPessoa(){
+    
+        System.out.println("----Pessoa----");
+        System.out.println("Nome: "+nome);
+        System.out.println("Cor do cabelo: "+corDoCabelo);
+        System.out.println("Biotipo: "+biotipo);
+        System.out.println("Idade: "+idade);
+    }
 
     public String getNome() {
         return nome;
